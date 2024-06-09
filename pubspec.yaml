@@ -1,0 +1,54 @@
+name: ecommerce_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.2+1
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  flutter_screenutil: ^5.9.0
+  google_fonts: 6.1.0
+  freezed: ^2.5.2
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  injectable: ^2.3.5
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.3
+  flutter_slidable: ^3.1.0
+  flutter_native_splash: ^2.3.11
+  flutter_stripe: ^10.1.1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.9
+  injectable_generator: ^2.4.2
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_logo.png"
+  adaptive_icon_background: "#004182"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/2x/
+    - assets/images/3x/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
